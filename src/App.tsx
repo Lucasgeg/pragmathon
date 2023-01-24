@@ -1,19 +1,19 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import NotFound from './pages/NotFound';
+import { HashRouter, Route, Routes } from "react-router-dom";
+import { ErrorPage } from "./pages/ErrorPage";
+import Home from "./pages/Home";
 
-export function App() {
+export const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} errorElement={<NotFound />} />
+      <Route path="/" element={<Home />} errorElement={<ErrorPage />} />
     </Routes>
   );
-}
+};
 
-export function WrappedApp() {
+export const WrappedApp = () => {
   return (
     <HashRouter>
       <App />
     </HashRouter>
   );
-}
+};

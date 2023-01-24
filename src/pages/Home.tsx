@@ -1,11 +1,16 @@
-import React from 'react';
+import { Link } from "react-router-dom";
+import { AuthLoader } from "../utils/AuthLoader";
+import { Auth } from "./Auth";
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <h1>Hello World</h1>
+      <Link to="/toto/1">
+        <button type="button">Toto</button>
+      </Link>
     </div>
   );
-}
+};
 
 export default Home;

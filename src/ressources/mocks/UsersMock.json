@@ -1,0 +1,82 @@
+[
+  {
+    "id": 9891,
+    "uid": "b5d4a9da-cde8-46b9-be76-86b284920b9c",
+    "password": "toto",
+    "status": "user",
+    "first_name": "Quincy",
+    "last_name": "Legros",
+    "username": "quincy.legros",
+    "email": "quincy.legros@email.com",
+    "avatar": "https://robohash.org/cupiditatequiadolore.png?size=300x300&set=set1",
+    "gender": "Agender",
+    "phone_number": "+1-684 1-382-287-5306 x1721",
+    "social_insurance_number": "541648960",
+    "date_of_birth": "1977-03-24",
+    "employment": {
+      "title": "Customer IT Officer",
+      "key_skill": "Proactive"
+    },
+    "address": {
+      "city": "Morarborough",
+      "street_name": "Luigi Springs",
+      "street_address": "3258 Berge Motorway",
+      "zip_code": "55597-7774",
+      "state": "North Dakota",
+      "country": "United States",
+      "coordinates": {
+        "lat": -31.67385140751299,
+        "lng": 14.172558271805059
+      }
+    },
+    "credit_card": {
+      "cc_number": "5536-4908-7534-5576"
+    },
+    "subscription": {
+      "plan": "Gold",
+      "status": "Pending",
+      "payment_method": "Paypal",
+      "term": "Full subscription"
+    }
+  },
+  {
+    "id": 8464,
+    "uid": "10864b08-4d06-4bc1-8c36-01c5d4c309ef",
+    "password": "toto",
+    "status": "admin",
+    "first_name": "Rosa",
+    "last_name": "Wintheiser",
+    "username": "rosa.wintheiser",
+    "email": "rosa.wintheiser@email.com",
+    "avatar": "https://robohash.org/quaeratanimimolestiae.png?size=300x300&set=set1",
+    "gender": "Female",
+    "phone_number": "+592 (713) 484-9786",
+    "social_insurance_number": "702122110",
+    "date_of_birth": "2002-06-14",
+    "employment": {
+      "title": "Human Facilitator",
+      "key_skill": "Technical savvy"
+    },
+    "address": {
+      "city": "Quintontown",
+      "street_name": "Adolfo Brooks",
+      "street_address": "1412 Price Spring",
+      "zip_code": "20528-0404",
+      "state": "Florida",
+      "country": "United States",
+      "coordinates": {
+        "lat": -87.10636240013676,
+        "lng": -69.30209682719108
+      }
+    },
+    "credit_card": {
+      "cc_number": "6771-8968-8273-7856"
+    },
+    "subscription": {
+      "plan": "Student",
+      "status": "Blocked",
+      "payment_method": "Apple Pay",
+      "term": "Annual"
+    }
+  }
+]
