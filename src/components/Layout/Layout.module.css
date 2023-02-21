@@ -1,6 +1,21 @@
 .main {
   height: 100vh;
   display: grid;
-  border: 1px solid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: 1fr 8fr;
+  grid-template-rows: 1fr 8fr;
+  grid-template-areas:
+    "navbar header"
+    "navbar content";
+}
+
+.header {
+  grid-area: header;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+.content {
+  grid-area: content;
 }
