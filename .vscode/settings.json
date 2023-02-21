@@ -2,5 +2,7 @@
     "workbench.colorCustomizations": {
         "menu.selectionBackground": "#F36F2A"
     },
-    "todo-tree.tree.showBadges": true
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.disableCompactFolders": true,
+    "todo-tree.tree.showCountsInTree": true
 }

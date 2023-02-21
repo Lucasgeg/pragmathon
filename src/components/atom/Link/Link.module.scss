@@ -1,0 +1,18 @@
+@import url("/src/utils/Colors.css");
+
+.link{
+    background-color: var(--gray);
+    display: flex;
+    min-width: 10rem;
+    width: fit-content;
+    justify-content: center;
+    padding: 0.5em 1em;
+    color: #fff;
+    border-radius: 20em;
+    border: 1px #fff solid;
+    
+}
+.link:hover{
+        background-color: rgba(255,255,255,0.5);
+        border: 1px solid var(--orange);
+    }
