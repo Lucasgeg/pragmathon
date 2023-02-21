@@ -7,5 +7,6 @@
         "menu.selectionBackground": "#F36F2A",
         "titleBar.activeBackground": "#F36F2A",
         "titleBar.activeForeground": "#ffff"
-    }
+    },
+    "todo-tree.tree.showBadges": true
 }

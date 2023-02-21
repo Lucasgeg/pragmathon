@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import { AuthLoader } from "../utils/AuthLoader";
-import { Auth } from "./Auth";
 
 const Home = () => {
   return (

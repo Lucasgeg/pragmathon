@@ -1,32 +1,20 @@
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-  Routes,
-} from "react-router-dom";
-import { Auth } from "./pages/Auth";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
 import { ErrorPage } from "./pages/ErrorPage";
 import Home from "./pages/Home";
-import { Sub1 } from "./pages/Sub1";
-import { Sub2 } from "./pages/Sub2";
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Home />} errorElement={<ErrorPage />} />
-  )
-);
+import UserPage from "./pages/UserPage";
 
 const Router = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} errorElement={<ErrorPage />}>
+          <Route index element={<Home />} />
+          <Route path="users" element={<UserPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default Router;
-
-const UserRoute = () => {
-  return <Route path="/home" element={<Sub1 />} />;
-};
-
-const AdminRoute = () => {
-  return <Route path="/home" element={<Sub2 />} />;
-};
