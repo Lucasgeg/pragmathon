@@ -1,12 +1,8 @@
 {
     "workbench.colorCustomizations": {
-        "statusBar.background": "#F36F2A",
-        "statusBar.foreground": "#ffff",
-        "activityBar.background": "#f3a32a",
-        "activityBar.foreground": "#ffff",
-        "menu.selectionBackground": "#F36F2A",
-        "titleBar.activeBackground": "#F36F2A",
-        "titleBar.activeForeground": "#ffff"
+        "menu.selectionBackground": "#F36F2A"
     },
-    "todo-tree.tree.showBadges": true
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.disableCompactFolders": true,
+    "todo-tree.tree.showCountsInTree": true
 }

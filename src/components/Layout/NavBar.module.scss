@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    & ul > li{
+        margin: 2em 0;
+    }
+}
+.picture{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1em auto 1em;
+    background-color: var(--orange);
+}

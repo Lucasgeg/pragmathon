@@ -1,0 +1,23 @@
+:root {
+  --blue: #4680ff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #ff5252;
+  --orange: #fd7e14;
+  --yellow: #ffba57;
+  --green: #9ccc65;
+  --teal: #20c997;
+  --cyan: #00acc1;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #4680ff;
+  --secondary: #6c757d;
+  --success: #9ccc65;
+  --info: #00acc1;
+  --warning: #ffba57;
+  --danger: #ff5252;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}

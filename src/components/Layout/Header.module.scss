@@ -1,0 +1,8 @@
+.header {
+  height: 100%;
+  width: 100%;
+  & img {
+    max-width: 33%;
+    object-fit: cover;
+  }
+}
