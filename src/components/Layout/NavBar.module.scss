@@ -3,8 +3,11 @@
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    & ul > li{
-        margin: 2em 0;
+    >ul{
+        padding: 1em 0;
+    }
+    li{
+        padding-top: 1em;
     }
 }
 .picture{
@@ -15,3 +18,20 @@
     margin: 1em auto 1em;
     background-color: var(--orange);
 }
+
+.link{
+    background-color: var(--gray);
+    display: flex;
+    min-width: 10rem;
+    width: fit-content;
+    justify-content: center;
+    padding: 0.5em 0;
+    color: #fff;
+    border-radius: 20em;
+    border: 1px #fff solid;
+    cursor: pointer;
+}
+.link:hover{
+        background-color: rgba(255,255,255,0.5);
+        border: 1px solid var(--orange);
+    }

@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-import { ErrorPage } from "./pages/ErrorPage";
-import Home from "./pages/Home";
-import UserPage from "./pages/UserPage";
+import { ErrorPage } from "./pages/ErrorPage/ErrorPage";
+import Home from "./pages/Home/Home";
+import UserPage from "./pages/Users/Users";
 
 const Router = () => {
   return (
