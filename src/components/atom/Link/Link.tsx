@@ -1,15 +1,17 @@
 import { ReactNode } from "react";
-import { Link as ReactLink } from "react-router-dom";
+import {
+  Link as ReactLink,
+  LinkProps as ReactLinkProps,
+} from "react-router-dom";
 import styles from "./Link.module.scss";
 
-interface LinkProps {
-  to: string;
+interface LinkProps extends ReactLinkProps {
   children: ReactNode;
 }
 
-const Link = ({ to, children }: LinkProps) => {
+const Link = ({ to, children, ...rest }: LinkProps) => {
   return (
-    <ReactLink to={to} className={styles.link}>
+    <ReactLink to={to} {...rest} className={styles.link}>
       {children}
     </ReactLink>
   );

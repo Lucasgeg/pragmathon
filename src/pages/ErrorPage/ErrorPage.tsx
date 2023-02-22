@@ -1,4 +1,4 @@
-import Link from "../components/atom/Link/Link";
+import Link from "../../components/atom/Link/Link";
 
 export const ErrorPage = () => {
   return (

@@ -1,0 +1,21 @@
+.link{
+    
+    display: flex;
+    a{
+      color: #fff;
+        
+    }
+    svg{
+      width: 1.2em;
+    }
+    a:hover{
+      color: var(--orange);
+    }
+}
+.container{
+  padding-top: 0.35em;
+  min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
