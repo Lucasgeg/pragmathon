@@ -17,9 +17,9 @@ const Navbar = () => {
     }));
   };
 
-  const userLinks = [
-    { path: "users", text: "Liste d'utilisateurs" },
-    { path: "createUser", text: "Créer nouvel utilisateur" },
+  const partnerLinks = [
+    { path: "partners", text: "Liste partenaires" },
+    { path: "createPartner", text: "Créer nouveau partenaire" },
   ];
 
   const clientsLinks = [
@@ -29,7 +29,9 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className={styles.picture}>user picture</div>
+      <div className={styles.pictureBorder}>
+        <div className={styles.picture}>user picture</div>
+      </div>
       <div className={styles.navbar}>
         <span>Navigation</span>
         <ul>
@@ -41,12 +43,12 @@ const Navbar = () => {
           <li>
             <div
               className={styles.link}
-              onClick={() => handleMenuClick("users")}
+              onClick={() => handleMenuClick("partners")}
             >
-              Utilisateurs
+              Partenaires
             </div>
           </li>
-          {menuOpen.users && <Submenu links={userLinks} />}
+          {menuOpen.partners && <Submenu links={partnerLinks} />}
           <li>
             <div
               className={styles.link}

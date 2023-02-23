@@ -1,12 +1,18 @@
-import { Link } from "react-router-dom";
+import ComponentLayout from "../../components/atom/ComponentLayout/ComponentLayout";
+import { CustomAreaChart } from "../../components/mollecule/Charts/CustomAreaChart/CustomAreaChart";
+import { CustomPieChart } from "../../components/mollecule/Charts/PieChart/PieChart";
+import styles from "./Home.module.scss";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <Link to="/toto/1">
-        <button type="button">Toto</button>
-      </Link>
+    <div className={styles.layer}>
+      <ComponentLayout className={styles.comp1}>
+        <CustomPieChart />
+      </ComponentLayout>
+      <ComponentLayout>
+        <CustomAreaChart />
+      </ComponentLayout>
+      <div className={styles.comp3}>Tableau </div>
     </div>
   );
 };

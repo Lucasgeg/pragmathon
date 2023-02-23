@@ -24,8 +24,9 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "react/react-in-jsx-scope": 0,
-    "prettier/prettier": ["error", { endOfLine: "auto", singleQuote: false }],
+    "prettier/prettier": ["warn", { endOfLine: "auto", singleQuote: false }],
     "import/prefer-default-export": "off",
+    "react/no-array-index-key": "off",
     "react/function-component-definition": [
       2,
       {
