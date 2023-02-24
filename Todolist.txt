@@ -1,2 +1,4 @@
 TODO: design navbar
-TODO: liste déroulante menu user et autre...
+TODO: SubComponent
+TODO: Graphique Recharts
+TODO: User list

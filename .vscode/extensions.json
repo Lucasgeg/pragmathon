@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "clinyong.vscode-css-modules",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "cpylua.language-postcss",
+        "christian-kohler.path-intellisense",
+        "vunguyentuan.vscode-postcss",
+        "csstools.postcss",
+        "esbenp.prettier-vscode",
+        "styled-components.vscode-styled-components",
+        "gamunu.vscode-yarn"
+    ]
+}

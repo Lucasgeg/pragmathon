@@ -25,7 +25,11 @@
   font-style: normal;
 }
 
-body {
+body,
+html {
   font-family: "agency_fbregular", "agency_fbbold";
   background-color: var(--gray);
+}
+#root {
+  height: 100vh;
 }
